@@ -1,0 +1,21 @@
+{
+  "name": "api-github",
+  "version": "1.0.0",
+  "description": "Este projeto envolve a busca de informações de repositórios do GitHub usando a API do GitHub e a exibição dessas informações em uma página da web. O código JavaScript fornecido utiliza a função `Fetch` para obter os dados dos repositórios de um usuário específico do GitHub e, em seguida cria elementos HTML dinamicamente para apresentar os detalhes dos repositórios na página.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "and",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
